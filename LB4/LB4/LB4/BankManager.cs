@@ -42,7 +42,7 @@ public class BanksManager
         Banks.Add(new Bank(name, deposit, percentage));     
     }
     
-    public void AddBankDebug(Bank bank)
+    public void AddBank(Bank bank)
     {
         Banks.Add(bank);     
     }

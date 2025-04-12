@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Rider\\LB\\LB4\\LB4\\LB4\\LB4.csproj": {}
+    "E:\\Rider\\LBs\\LB4\\LB4\\LB4\\LB4.csproj": {}
   },
   "projects": {
-    "E:\\Rider\\LB\\LB4\\LB4\\LB4\\LB4.csproj": {
+    "E:\\Rider\\LBs\\LB4\\LB4\\LB4\\LB4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Rider\\LB\\LB4\\LB4\\LB4\\LB4.csproj",
+        "projectUniqueName": "E:\\Rider\\LBs\\LB4\\LB4\\LB4\\LB4.csproj",
         "projectName": "LB4",
-        "projectPath": "E:\\Rider\\LB\\LB4\\LB4\\LB4\\LB4.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Rider\\LB\\LB4\\LB4\\LB4\\obj\\",
+        "projectPath": "E:\\Rider\\LBs\\LB4\\LB4\\LB4\\LB4.csproj",
+        "packagesPath": "C:\\Users\\bibma\\.nuget\\packages\\",
+        "outputPath": "E:\\Rider\\LBs\\LB4\\LB4\\LB4\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "E:\\VS\\SDK\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+          "C:\\Users\\bibma\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -62,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -147,7 +147,7 @@ public class Bank
         Console.WriteLine($"Deposit account with FIO {fio} added to the bank system");
     }
     
-    public void AddDepositAccountDebug(string fio, double balance)
+    public void AddDepositAccount(string fio, double balance)
     {
         DepositAccounts.Add(new DepositAccount(fio, balance, Percentage));
     }

@@ -65,21 +65,21 @@ void DebugModeAsking()
 void DebugModeAction()
 {
     Bank sberbank = new Bank("Sberbank", 1000000, 5.5);
-    sberbank.AddDepositAccountDebug("John Doe", 50000);
-    sberbank.AddDepositAccountDebug("Jane Smith", 75000);
-    sberbank.AddDepositAccountDebug("Alice Johnson", 120000);
-    banksManager.AddBankDebug(sberbank);
+    sberbank.AddDepositAccount("John Doe", 50000);
+    sberbank.AddDepositAccount("Jane Smith", 75000);
+    sberbank.AddDepositAccount("Alice Johnson", 120000);
+    banksManager.AddBank(sberbank);
     
     Bank vtb = new Bank("VTB", 2000000, 6.0);
-    vtb.AddDepositAccountDebug("Michael Brown", 100000);
-    vtb.AddDepositAccountDebug("Emily Davis", 250000);
-    banksManager.AddBankDebug(vtb);
+    vtb.AddDepositAccount("Michael Brown", 100000);
+    vtb.AddDepositAccount("Emily Davis", 250000);
+    banksManager.AddBank(vtb);
     
     Bank alpha = new Bank("Alpha Bank", 500000, 4.8);
-    alpha.AddDepositAccountDebug("David Wilson", 30000);
-    alpha.AddDepositAccountDebug("Sarah Taylor", 45000);
-    alpha.AddDepositAccountDebug("James Miller", 80000);
-    banksManager.AddBankDebug(alpha); 
+    alpha.AddDepositAccount("David Wilson", 30000);
+    alpha.AddDepositAccount("Sarah Taylor", 45000);
+    alpha.AddDepositAccount("James Miller", 80000);
+    banksManager.AddBank(alpha); 
 
     Console.WriteLine("Test data initialized!");
 }
